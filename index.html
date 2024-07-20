@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      
+        function add(){
+            let inputfield=document.getElementById("inputText").value;
+            let para=document.createElement("input");
+            para.value=inputfield;
+            document.body.appendChild(para);
+
+        }
+        function del(){
+            let value=document.getElementsByTagName("input");
+          
+            if (value.length > 1) {
+                value[value.length - 1].remove();
+            } else {
+                alert("No data available");
+            }
+        } 
+    </script>
+  
+   
+</head>
+<body>
+    <div>
+
+        <h1>To-do List</h1>
+        <input type="text" id="inputText">
+        <button class="add" onclick="add()">Add</button>                   
+        <button class="remove" onclick="del()">Delete</button>
+
+    </div>
+
+   
+       
+</body>
+</html>

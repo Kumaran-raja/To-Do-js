@@ -1,0 +1,22 @@
+.add{
+    background-color: green;
+    font-size: 20px;
+    border-style: none;
+    color: white;
+
+}
+.remove{
+    background-color: red;
+    font-size: 20px;
+    border-style: none;
+    color: white;
+}
+body{
+    margin-left:70px;
+    background-color: beige;
+}
+input{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 25px;
+}
