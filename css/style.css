@@ -12,11 +12,16 @@
     color: white;
 }
 body{
-    margin-left:70px;
+    padding-top: 30px;
     background-color: beige;
 }
 input{
     margin-top: 10px;
     margin-right: 10px;
     height: 25px;
+}
+#print{
+    display: block;
+    width: 100px;
+
 }
